@@ -5,7 +5,7 @@
     
 }
 
-.title
+.titlebg
 {
 position: absolute;
 top: 166px;
@@ -37,14 +37,14 @@ justify-content: center ;
   
 }
 
-.icon 
+.iconbg
 {
     width: 24px;
 height: 24px;
 padding-left: 10px;
 }
 
-.text
+.textbg
 {
   padding-top: 4px;;
     font-family: Roboto;
@@ -54,7 +54,7 @@ text-transform: capitalize;
 color:#B4B4B4;
 }
 
-.iconblock
+.iconblockbg
 {
   
     display: flex;
@@ -99,10 +99,6 @@ color:#B4B4B4;
 width: 112px;
 height: 36px;
 
-}
-
-.icon {
-height: 24px;
 }
 
 
@@ -185,15 +181,12 @@ text-align: center;
 text-transform: uppercase;
 }
 
-.create:hover{
-  
-}
 .products {
   position: absolute;
   top:480px;
   display: flex;
   justify-content: center;
-  gap: 80px;
+  gap: 60px;
   margin-top: 40px;
     padding-left: 205px;
 
@@ -216,7 +209,7 @@ text-transform: uppercase;
   object-fit: cover;
 }
 
-.block {
+.blockbg {
   padding: 10px;
 }
 
@@ -245,7 +238,7 @@ text-transform: uppercase;
   top: 490px; /* або коригуй, якщо блоки трохи зсунуті */
   display: flex;
   justify-content: center;
-  gap: 193px; /* підігнано для ширини 160px кожної картки + проміжки */
+  gap: 170px; /* підігнано для ширини 160px кожної картки + проміжки */
   padding-left: 337px; /* підкоригуй для центрування */
   align-items: center;
   z-index: 10; /* якщо щось перекриває */

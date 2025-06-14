@@ -7,7 +7,7 @@ export const Bg = () => (
     <div className="navbar">
   <div className="nav-left">
     <div className="burgerbox">
-      <img src="/burger.png" className="icon" alt="Menu" />
+      <img src="/burger.png" className="iconbg" alt="Menu" />
       <div>Меню</div>
     </div>
     <img src="/logo.png" className="logo" alt="Logo" />
@@ -18,26 +18,26 @@ export const Bg = () => (
 
   <div className="nav-right">
     <div className="nav-item">
-      <img src="/location.png" className="icon" alt="Location" />
+      <img src="/location.png" className="iconbg" alt="Location" />
       <span>Київ</span>
     </div>
     <div className="nav-item">
-      <img src="/user.png" className="icon" alt="User" />
+      <img src="/user.png" className="iconbg" alt="User" />
       <span>Привіт! Увійдіть В Систему</span>
     </div>
     <div className="iconboxnav">
-      <img src="/cart.png" className="icon" alt="Cart" />
-      <img src="/like.png" className="icon" alt="Like" />
+      <img src="/cart.png" className="iconbg" alt="Cart" />
+      <img src="/like.png" className="iconbg" alt="Like" />
     </div>
   </div>
 </div>
 
-    <div className="title">все для дому</div>
+    <div className="titlebg">все для дому</div>
 <div className="searchbox">
     <div className="search">
       <div className="iconblock">
-        <img src="/search.png" className="icon" alt="Search" />
-        <span className="text">Пошук</span>
+        <img src="/search.png" className="iconbg" alt="Search" />
+        <span className="textbg">Пошук</span>
       </div>
     </div>
     </div>
@@ -52,8 +52,8 @@ export const Bg = () => (
 
 <div className="products">
   <div className="itembox">
-    <img src="/1.png" className="imgblock" alt="Pillow" />
-    <div className="block">
+    <img src="/1.png" alt="Pillow" />
+    <div className="blockbg">
       <div className="inblocktitle">ПОДУШКИ</div>
       <div className="inblocktext">спальна кімната...</div>
       <div className="inblockprice">12$</div>
@@ -61,8 +61,8 @@ export const Bg = () => (
   </div>
 
   <div className="itembox">
-    <img src="/2.png" className="imgblock" alt="Blanket" />
-    <div className="block">
+    <img src="/2.png" alt="Blanket" />
+    <div className="blockbg">
       <div className="inblocktitle">КОВДРА</div>
       <div className="inblocktext">спальна кімната...</div>
       <div className="inblockprice">30$</div>
@@ -70,8 +70,8 @@ export const Bg = () => (
   </div>
 
   <div className="itembox">
-    <img src="/3.png" className="imgblock" alt="Bed" />
-    <div className="block">
+    <img src="/3.png" alt="Bed" />
+    <div className="blockbg">
       <div className="inblocktitle">ЛІЖКО</div>
       <div className="inblocktext">спальна кімната...</div>
       <div className="inblockprice">414$</div>
