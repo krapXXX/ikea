@@ -1,0 +1,14 @@
+.nameblocktext{
+     
+  width:160px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius:30px ;
+  font-family: Montserrat;
+  text-transform: uppercase;
+  margin-left:28px
+}

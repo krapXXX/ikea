@@ -1,6 +1,8 @@
 import './second-block.css';
 import React from 'react';
 import { Title } from './title';
+import { Name } from './name';
+import { Arrow } from './arrow';
 
 const SecondBlock = () => {
   return (
@@ -29,33 +31,38 @@ const SecondBlock = () => {
 
         <div className="imgwrapper">
   <img src="/col1.jpg" />
-  <div className="recblocktext">назва набору</div>
+  <Name bottom ="33px"></Name>
 </div>
 
    
         <div className="imgwrapper">
   <img src="/col2.jpg" />
-  <div className="recblocktext">назва набору</div>
+  <Name bottom ="33px"></Name>
+
 </div>
 
         <div className="imgwrapper">
   <img src="/col3.jpg" />
-  <div className="recblocktext">назва набору</div>
+  <Name bottom ="33px"></Name>
+
 </div>
 
         <div className="imgwrapper">
   <img src="/col4.jpg" />
-  <div className="recblocktext">назва набору</div>
+  <Name bottom ="33px"></Name>
+
 </div>
 
         <div className="imgwrapper">
   <img src="/col5.jpg" />
-  <div className="recblocktext">назва набору</div>
+  <Name bottom ="33px"></Name>
+
 </div>
 
         <div className="imgwrapper">
   <img src="/col6.jpg" />
-  <div className="recblocktext">назва набору</div>
+  <Name bottom ="33px"></Name>
+
 </div>
 
       </div>
@@ -65,39 +72,41 @@ const SecondBlock = () => {
 
         <div className="imgwrapper">
   <img src="/col7.jpg" />
-  <div className="recblocktext">назва набору</div>
+  <Name bottom ="33px"></Name>
+
+
 </div>
 
    
         <div className="imgwrapper">
   <img src="/col8.jpg" />
-  <div className="recblocktext">назва набору</div>
+  <Name bottom ="33px"></Name>
 </div>
 
         <div className="imgwrapper">
   <img src="/col9.jpg" />
-  <div className="recblocktext">назва набору</div>
+  <Name bottom ="33px"></Name>
 </div>
 
         <div className="imgwrapper">
   <img src="/col10.jpg" />
-  <div className="recblocktext">назва набору</div>
+  <Name bottom ="33px"></Name>
 </div>
 
         <div className="imgwrapper">
   <img src="/col11.jpg" />
-  <div className="recblocktext">назва набору</div>
+  <Name bottom ="33px"></Name>
 </div>
 
         <div className="imgwrapper">
   <img src="/col12.jpg" />
-  <div className="recblocktext">назва набору</div>
+  <Name bottom ="33px"></Name>
 </div>
 
       </div>
 
       <Title text ="новинки"></Title>
-      <dib className = "gridnew">
+      <div className = "gridnew">
         
       <div className = "imgblocknew1">
           <img src="/new2.jpg" />
@@ -109,8 +118,162 @@ const SecondBlock = () => {
           <img src="/new1.jpg" />
 
       </div>
-      </dib>
 
+      </div>
+
+ <Title text ="каталог"></Title>
+
+ <div className="gridcatalogue">
+  <div className="gridcatalogueitem">
+    <img src="/cat1.png" alt="catalogue item" />
+    <Name pos = "none"></Name>
+  </div>
+
+  <div className="gridcatalogueitem">
+    <img src="/cat2.png" alt="catalogue item" />
+    <Name pos = "none"></Name>
+
+
+  </div>
+
+  <div className="gridcatalogueitem">
+    <img src="/cat3.png" alt="catalogue item" />
+    <Name pos = "none"></Name>
+  </div>
+
+  <div className="gridcatalogueitem">
+    <img src="/cat4.jpg" alt="catalogue item" />
+    <Name pos = "none"></Name>
+  </div>
+
+  <div className="gridcatalogueitem">
+    <img src="/cat5.png" alt="catalogue item" />
+    <Name pos = "none"></Name>
+  </div>
+
+  <div className="gridcatalogueitem">
+    <img src="/cat6.jpg" alt="catalogue item" />
+    <Name pos = "none"></Name>
+  </div>
+
+  <div className="gridcatalogueitem">
+    <img src="/cat7.jpg" alt="catalogue item" />
+    <Name pos = "none"></Name>
+  </div>
+
+  <div className="gridcatalogueitem">
+    <img src="/cat8.png" alt="catalogue item" />
+    <Name pos = "none"></Name>
+  </div>
+
+  <div className="gridcatalogueitem">
+    <img src="/cat9.jpg" alt="catalogue item" />
+    <Name pos = "none"></Name>
+  </div>
+
+  <div className="gridcatalogueitem">
+    <img src="/cat10.jpg" alt="catalogue item" />
+    <Name pos = "none"></Name>
+  </div>
+
+  <div className="gridcatalogueitem">
+    <img src="/cat11.jpg" alt="catalogue item" />
+    <Name pos = "none"></Name>
+  </div>
+
+  <div className="gridcatalogueitem">
+    <img src="/cat12.jpg" alt="catalogue item" />
+    <Name pos = "none"></Name>
+  </div>
+
+  <div className="gridcatalogueitem">
+    <img src="/cat13.jpg" alt="catalogue item" />
+    <Name pos = "none"></Name>
+  </div>
+
+  <div className="gridcatalogueitem">
+    <img src="/cat14.jpg" alt="catalogue item" />
+    <Name pos = "none"></Name>
+  </div>
+
+  <div className="gridcatalogueitem">
+    <img src="/cat15.png" alt="catalogue item" />
+    <Name pos = "none"></Name>
+  </div>
+
+  <div className="gridcatalogueitem">
+    <img src="/cat16.jpg" alt="catalogue item" />
+    <Name pos = "none"></Name>
+  </div>
+
+  <div className="gridcatalogueitem">
+    <img src="/cat17.jpg" alt="catalogue item" />
+    <Name pos = "none"></Name>
+  </div>
+
+  <div className="gridcatalogueitem">
+    <img src="/cat18.png" alt="catalogue item" />
+    <Name pos = "none" ></Name>
+  </div>
+</div>
+<Title text ="ідеї для оформлення"></Title>
+
+<div className="ideasname">
+<div className = "nameideas">Назва набору</div>
+<div className = "nameideas">Назва набору</div>
+<div className = "nameideas">Назва набору</div>
+<div className = "nameideas">Назва набору</div>
+<div className = "nameideas">Назва набору</div>
+<div className = "nameideas">Назва набору</div>
+<div className = "nameideas">Назва набору</div>
+</div>
+
+<div className="ideasgrid">
+
+  <div className="ideasgrid1">
+    <div className="image-wrapper">
+      <img src="/idea1.jpg" alt="idea1" />
+      <Arrow />
+    </div>
+    <div className="image-wrapper">
+      <img src="/idea4.jpg" alt="idea4" />
+      <Arrow />
+    </div>
+  </div>
+
+  <div className="ideasgrid2">
+    <div className="image-wrapper">
+      <img src="/idea2.jpg" alt="idea2" />
+      <Arrow />
+    </div>
+    <div className="image-wrapper">
+      <img src="/idea5.jpg" alt="idea5" />
+      <Arrow />
+    </div>
+  </div>
+
+  <div className="ideasgrid1">
+    <div className="image-wrapper">
+      <img src="/idea3.jpg" alt="idea3" />
+      <Arrow />
+    </div>
+    <div className="image-wrapper">
+      <img src="/idea6.jpg" alt="idea6" />
+      <Arrow />
+    </div>
+  </div>
+
+</div>
+
+<div className="ideasname" style={{marginTop: "-570px"}}>
+<div className = "nameideas">Назва набору</div>
+<div className = "nameideas">Назва набору</div>
+<div className = "nameideas">Назва набору</div>
+<div className = "nameideas">Назва набору</div>
+<div className = "nameideas">Назва набору</div>
+<div className = "nameideas">Назва набору</div>
+<div className = "nameideas">Назва набору</div>
+</div>
     </div>
   );
 };
